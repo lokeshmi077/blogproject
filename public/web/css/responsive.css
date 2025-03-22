@@ -1,0 +1,264 @@
+@media (max-height:1301px) {
+  /* .login-grid {
+    max-height: 462px !important;
+  } */
+
+
+  .header .navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .userActivity img{
+    width: 20px;
+  }
+
+  .heading {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    color: rgb(0 0 0 / 70%);
+    margin-bottom: 12px;
+  }
+
+  .header .navbar .collapse .navbar-nav .nav-item{
+    padding:0 24px;
+  }
+
+  .checkbox .form-check input, .checkboxs .form-check input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkbox .form-check label {
+    padding-left: 25px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .header .navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    padding: 0;
+
+  }
+  .login-content p{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .social-icon a img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .checkboxs .form-check label{
+    padding-left: 6px;
+  }
+
+  h5.heading{
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .center-content .h2{
+    font-size: 28px;
+  line-height: 38px;
+  }
+
+  .center-content p{
+    font-size: 20px;
+  line-height: 30px;
+  }
+
+  .categorie span{
+    width: 140px;
+    height: 140px;
+  }
+
+  /* .categorie span img{
+    width: 56%;
+  } */
+
+  .categorie p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .footerRightcontent h4{
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .footerRightcontent ul li a{
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  span.likeDislike {
+    font-size: 27px;
+    line-height: 37px;
+  }
+
+  .addTocart{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .filerDetails .filterSection h5{
+    font-size: 20px;
+      line-height: 30px;
+  }
+
+  .customCarousel .carousel-indicators button {
+    width: 150px;
+    height: 100px;
+  }
+
+  /* 010325 */
+
+  .ProductDetail h4{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .deliveryStatus span.delivery, .deliveryStatus p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .contact h6 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .productamt span.soldAmt {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+  .preview {
+    max-width: 15%;
+  }
+
+  .ProductImage{
+    max-width: calc(100% - 15%);
+  }
+
+  .bill table tbody tr th, .bill table tbody tr td{
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width:1201px) {
+  .customCarousel .carousel-indicators button{
+    width: 100px;
+    height: 62px;
+  }
+}
+
+@media (max-width:992px) {
+  .userDetail .dropdown .customSearchbtn {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000B2 !important;
+    font-weight: 400;
+  }
+
+  .userActivity span img{
+    width: 34px;
+    height: 34px;
+  }
+
+  .userDetail .dropdown .dropdown-menu li a{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .center-content .h2{
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .categorie p{
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .footerRightcontent ul li a{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  /* 010325 */
+
+  .preview, .ProductImage {
+    max-width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .userDetail .dropdown .dropdown-menu li a{
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .center-content .h2{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .center-content p{
+    font-size: 16px;
+  line-height: 26px;
+  }
+
+  .categorie p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footerRightcontent ul li a{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+}
+
+@media (max-width:577px) {
+  span.likeDislike {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .customCarousel{
+    display: block;
+  }
+
+  .customCarousel .carousel-indicators{
+    flex-wrap: nowrap;
+    display: flex;
+    overflow: scroll;
+  }
+
+  .customCarousel .carousel-indicators button{
+    width: 130px;
+    height: 72px;
+    margin: 0 5px;
+  }
+
+  .userDetail{
+    margin-left: 20px;
+  }
+
+  .userActivity span {
+    margin-left: 12px;
+  }
+
+  .userActivity span img{
+    width: 28px;
+    height: 28px;
+  }
+}

@@ -1,0 +1,20 @@
+@media (max-width:1301px){
+    .login-grid-2 h2{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .stat-box i {
+      font-size: 30px;
+    }
+
+    .stat-box h3 {
+      font-size: 18px;
+      margin: 5px 0;
+      line-height: 28px;
+  }
+
+  .stat-box {
+    padding: 10px;
+}
+}
