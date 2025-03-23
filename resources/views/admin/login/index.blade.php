@@ -56,7 +56,8 @@
                             <h2 class="heading text-center">Login</h2>
                             <p class="heading text-center">Welcome back! Log in to your account.</p>
 
-                            <form method="POST" action="#" class="user">
+                            <form method="POST" action="{{route('login')}}" class="user">
+                                @csrf
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
                                     <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Enter email address" required />
